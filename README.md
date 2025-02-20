@@ -20,11 +20,10 @@ TensorFlow / PyTorch (for ML-based trajectory prediction)
 OpenCV (for object detection and tracking)
 MQTT / HTTP (for IoT-based remote monitoring)
 
-Machine Learning Model
-The system employs a deep learning model for:
-Trajectory Prediction: Uses historical movement data to estimate the future path of a target. Implemented using Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks to improve accuracy.
-Threat Classification: Uses a Convolutional Neural Network (CNN) to classify objects detected by the radar system, distinguishing between different target types (e.g., friendly vs. hostile).
-Anomaly Detection: Incorporates an autoencoder-based anomaly detection model to identify unexpected movements or unidentified objects.
+Machine Learning Model: The system employs a deep learning model for:
+1. Trajectory Prediction: Uses historical movement data to estimate the future path of a target. Implemented using Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks to improve accuracy.
+2. Threat Classification: Uses a Convolutional Neural Network (CNN) to classify objects detected by the radar system, distinguishing between different target types (e.g., friendly vs. hostile).
+3. Anomaly Detection: Incorporates an autoencoder-based anomaly detection model to identify unexpected movements or unidentified objects.
 
 Innovative Aspects
 1. Real-time AI-Powered Target Prediction, unlike traditional rule-based systems, RSMLS integrates deep learning for trajectory estimation, allowing it to predict and adjust engagement strategies dynamically.
